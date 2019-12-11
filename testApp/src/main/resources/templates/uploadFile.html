@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<header>
+<link rel="stylesheet" href="/css/main.css" />
+</header>
+<body>
+</br>
+</br>
+</br>
+</br>
+<div calss="1">
+<form action="success" Method="Post" enctype="multipart/form-data"
+	id="frm" name="ff">
+	<div align="center">
+		<input style="color: green" type="file" name="f1" id="myFile" multiple>
+		</input> </br> </br> </br> </br> </br> </br> </br> </br>
+</form>
+</div>
+<div class ="2" align ="center">
+		
+		<input style="color: blue" type="submit" onclick='UploadFileToserver()' /> </br> </br> </br> </br> </br> </br> </br> </br> </br> 
+		
+
+</div>
+<frame>
+<div align ="center">
+       
+ 	<progress id="pbar" value=0 max=100 style="width:300px">
+ 	<h2 id ="chunkUplaoded"></h2> 
+		 <p id="progress"></p>
+    </progress>
+    <p  id ="p_percentage"></p>
+</div>
+
+	</frame>
+<div class="upload-response" align ="center">
+    <div id="singleFileUploadError"></div>
+    <div id="singleFileUploadSuccess"></div>
+ 
+    <script src="/js/main.js" ></script>
+    
+    
+</body>
+
+</html>

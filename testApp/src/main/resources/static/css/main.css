@@ -1,0 +1,11 @@
+ <style>
+ 	#pbar {
+		width: 100%;
+		}
+
+#loaded-n-total {
+	width: 1%;
+	height: 30px;
+	background-color: green;
+	}
+</style>

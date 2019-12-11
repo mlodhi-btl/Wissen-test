@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "wissen.test.com.testapp.config.TomcatConfiguration",
+      "sourceType": "wissen.test.com.testapp.config.TomcatConfiguration"
+    },
+    {
+      "name": "file",
+      "type": "wissen.test.com.testapp.config.FileConfiguration",
+      "sourceType": "wissen.test.com.testapp.config.FileConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "wissen.test.com.testapp.config.FileConfiguration"
+    },
+    {
+      "name": "file.upload-location",
+      "type": "java.lang.String",
+      "description": "A description for 'file.upload-location'",
+      "sourceType": "wissen.test.com.testapp.config.FileConfiguration"
+    }
+  ],
+  "hints": []
+}
